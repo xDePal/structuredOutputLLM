@@ -7,7 +7,7 @@ from typing import Optional, Literal
 # --- Config ---
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",
+    api_key="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", #don't even try, it is expired
 )
 MODEL = "nvidia/nemotron-3-super-120b-a12b:free"
 
